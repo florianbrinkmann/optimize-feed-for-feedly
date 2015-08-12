@@ -27,9 +27,9 @@ function offf_add_namespace() {
 add_action( 'rss2_ns', 'offf_add_namespace' );
 
 function offf_add_header_information() {
-    echo '<webfeeds:cover image="http://florianbrinkmann.de/florian-brinkmann-feedly-cover-image.png" />
-<webfeeds:icon>http://florianbrinkmann.de/florian-brinkmann-icon.svg</webfeeds:icon>
-<webfeeds:logo>http://florianbrinkmann.de/florian-brinkmann-logo.svg</webfeeds:logo>
+    echo '<webfeeds:cover image="http://example.com/cover-image.png" />
+<webfeeds:icon>http://example.com/icon.svg</webfeeds:icon>
+<webfeeds:logo>http://example.com/logo.svg</webfeeds:logo>
 <webfeeds:accentColor>#FF7800</webfeeds:accentColor>';
 }
 add_action( 'rss2_head', 'offf_add_header_information' );
